@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardModule } from './modules/dashboard/dashboard.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NewProductComponent } from './modules/product/new-product/new-product.component';
+import { ProductComponent } from './modules/product/product/product.component';
 
 @NgModule({
   declarations: [

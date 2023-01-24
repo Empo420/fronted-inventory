@@ -7,18 +7,17 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NewCategoryComponent } from './components/new-category/new-category.component';
 
 
-
 @NgModule({
-    declarations: [
-      CategoryComponent,
-      NewCategoryComponent
-    ],
-    imports: [
-      CommonModule,
-      MaterialModule,
-      FlexLayoutModule,
-      FormsModule,
-      ReactiveFormsModule
-    ]
+  declarations: [
+    CategoryComponent,
+    NewCategoryComponent
+  ],
+  imports: [
+    CommonModule,
+    MaterialModule,
+    FlexLayoutModule,
+    FormsModule,
+    ReactiveFormsModule
+  ]
 })  
 export class CategoryModule { }

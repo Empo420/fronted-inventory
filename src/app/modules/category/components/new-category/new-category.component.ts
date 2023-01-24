@@ -10,6 +10,7 @@ import { CategoryService } from 'src/app/modules/shared/services/category.servic
 })
 export class NewCategoryComponent implements OnInit {
 
+
   public categoryForm: FormGroup;
   estadoFormulario: string = "";
   constructor(private fb: FormBuilder, private categoryService: CategoryService,
